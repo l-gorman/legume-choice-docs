@@ -3,18 +3,14 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to LegumeCHOICE's documentation!
+LegumeCHOICE Documentation
 ========================================
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
 
 
 
 .. toctree::
    :maxdepth: 1
    :caption: Section 1:
-      ./focus-group.md
-      ./legume-choice-app.md
+      source/focus-group.md
+      source/legume-choice-app.md
 
