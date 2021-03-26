@@ -1,3 +1,3 @@
-# Focus group header
+# Running a Focus Group
 
-Some information about the focus group
+Information on how to run a legume CHOICE focus group.
