@@ -15,6 +15,7 @@
 # sys.path.insert(0, os.path.abspath('.'))
 import sphinx_rtd_theme
 import sphinx_markdown_tables
+from recommonmark.parser import CommonMarkParser
 # -- Project information -----------------------------------------------------
 
 project = 'LegumeCHOICE'
@@ -30,12 +31,12 @@ author = 'Leo Gorman'
 extensions = [
     "sphinx_rtd_theme",
     'recommonmark',
-    'sphinx_markdown_tables'
+    'sphinx_markdown_tables',
 ]
 
 
 source_parsers = {
-    '.md': 'recommonmark.parser.CommonMarkParser',
+    '.md': CommonMarkParser,
 }
 
 source_suffix = {
@@ -60,16 +61,16 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 html_theme = 'sphinx_rtd_theme'
 
 html_theme_options = {
-    ‘logo_only’: True,
-    ‘display_version’: True,
-    ‘prev_next_buttons_location’: ‘bottom’,
-    ‘style_external_links’: True,
+    'logo_only': True,
+    'display_version': True,
+    'prev_next_buttons_location': 'bottom',
+    'style_external_links': True,
     # Toc options
-    ‘collapse_navigation’: False,
-    ‘sticky_navigation’: False,
-    ‘navigation_depth’: 3,
-    ‘includehidden’: True,
-    ‘titles_only’: False
+    'collapse_navigation': False,
+    'sticky_navigation': False,
+    'navigation_depth': 3,
+    'includehidden': True,
+    'titles_only': False
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,

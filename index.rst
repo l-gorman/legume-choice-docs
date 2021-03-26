@@ -9,8 +9,9 @@ LegumeCHOICE Documentation
 
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 3
    :caption: Section 1:
-      source/focus-group.md
-      source/legume-choice-app.md
+
+   source/focus-group.md
+   source/legume-choice-app.md
 
