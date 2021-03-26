@@ -59,6 +59,19 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 #
 html_theme = 'sphinx_rtd_theme'
 
+html_theme_options = {
+    ‘logo_only’: True,
+    ‘display_version’: True,
+    ‘prev_next_buttons_location’: ‘bottom’,
+    ‘style_external_links’: True,
+    # Toc options
+    ‘collapse_navigation’: False,
+    ‘sticky_navigation’: False,
+    ‘navigation_depth’: 3,
+    ‘includehidden’: True,
+    ‘titles_only’: False
+}
+
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
