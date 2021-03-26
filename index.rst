@@ -12,9 +12,10 @@ Welcome to LegumeCHOICE's documentation!
 
 
 
-Indices and tables
-==================
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :caption: Section 1:
+      ./focus-group.md
+      ./legume-choice-app.md
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
