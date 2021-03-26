@@ -39,8 +39,10 @@ LegumeCHOICE Documentation
    :maxdepth: 3
    :caption: Developers
 
+   source/developer-overview.md
    source/database.md
    source/data-processing.md
    source/api.md
+   source/nginx.md
    
 

@@ -1,3 +1,3 @@
-# Legume CHOICE API
+# API
 
 Some information about the api

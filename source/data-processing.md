@@ -1,3 +1,3 @@
-# Legume CHOICE Data Processing
+# Data Processing
 
 Some information about the data processing

@@ -1,3 +1,3 @@
-# Data base
+# Database
 
 adding database doc
