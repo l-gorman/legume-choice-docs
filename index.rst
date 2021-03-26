@@ -13,6 +13,7 @@ LegumeCHOICE Documentation
    :caption: Introduction to LegumeCHOICE
 
    source/about.md
+   source/using-the-guide.md
 
 
 .. toctree::
@@ -40,6 +41,7 @@ LegumeCHOICE Documentation
    :caption: Developers
 
    source/developer-overview.md
+   source/front-end.md
    source/database.md
    source/data-processing.md
    source/api.md
