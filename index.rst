@@ -14,7 +14,6 @@ Welcome to LegumeCHOICE's documentation!
 
 .. toctree::
    :maxdepth: 1
-   :hidden:
    :caption: Section 1:
       ./focus-group.md
       ./legume-choice-app.md
