@@ -14,7 +14,7 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 import sphinx_rtd_theme
-
+import sphinx_markdown_tables
 # -- Project information -----------------------------------------------------
 
 project = 'LegumeCHOICE'
