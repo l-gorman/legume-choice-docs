@@ -40,9 +40,15 @@ Using this table, the user must specify the agroecological characteristics of th
 
 ## Results
 
-The results section allows the user to view/query the application results. This page will only be made available once the user has filled in the data entry section. The filter at the top of the page allows users to view results based on the characteristics they are most interested in (e.g. )
+The results section allows the user to view/query the application results. This page will only be made available once the user has filled in the data entry section. The filter at the top of the page allows users to view results based on the characteristics they are most interested in (e.g. functions or context)
 
 ## Managing Data
+
+The legumeCHOICE application is designed to function completely offline. To facilitate this, data-collectors have complete control over their local data. To save progress, users must go to the manage data page. They can save progress as a JSON file. We recommend keeping these files safe, and giving them a memorable name to help identify their different projects. To continue editing the same project, choose a file in the "load project" section. This will load all previously saved progress into the application.
+
+If you would like another person to continue data-collection on your behalf, you can simply give them the JSON file (e.g. by email or USB). They will be able to load this data into their application, and begin editing the data right away.
+
+To submit your data to the central database
 
 ## Limitations
 

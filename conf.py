@@ -54,6 +54,10 @@ source_suffix = {
     '.md': 'markdown'
 }
 
+latex_elements = {
+  'extraclassoptions': 'openany,oneside'
+}
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
