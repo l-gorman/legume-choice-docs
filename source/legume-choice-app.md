@@ -32,9 +32,15 @@ The pairwise selection section ives the user the opportunity to specify farmer p
 
 ### Participatory Matrix Scoring
 
+Each farmer involved in the focus-group. For this exercise, each farmer is is given 20 seeds which they can allocate across each of the functions. There are buttons to add/delete farmers. The user must specify each farmers name, typology, and gender. The results of the selection are summarised below the data entry table.
+
 ### AgroEcological Filter
 
+Using this table, the user must specify the agroecological characteristics of the study site.
+
 ## Results
+
+The results section allows the user to view/query the application results. This page will only be made available once the user has filled in the data entry section. The filter at the top of the page allows users to view results based on the characteristics they are most interested in (e.g. )
 
 ## Managing Data
 
