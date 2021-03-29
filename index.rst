@@ -6,7 +6,12 @@
 LegumeCHOICE Documentation
 ========================================
 
-
+This documentation is designed to help users of the legumeCHOICE application developed in 2021. 
+It provides detailed guidance on using the app, using the data made available from the app, 
+managing projects as an administrator, 
+and developing further features for the application. 
+For domain-specific guidance, or for information on how to conduct legumeCHOICE focus groups, 
+please refer to the original legumeCHOICE documentation :download:`here <source/LegumeCHOICE_tool_dec2016.pdf>`
 
 .. toctree::
    :maxdepth: 3
