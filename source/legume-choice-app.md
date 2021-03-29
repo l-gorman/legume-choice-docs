@@ -1,10 +1,12 @@
 # Using the App
 
-This section provides an overview of how to get started with the LegumeCHOICE app. The app can be viewed and downloaded [here](https://l-gorman.github.io/legume-choice-client/). To download the application, visit the page. To the right of the URL (in the search bar) there should be a button to download in the app. If you are having trouble downloading the app, try updating your browser.
+This section provides an overview of how to get started with the legumeCHOICE app. The app can be viewed and downloaded [here](https://l-gorman.github.io/legume-choice-client/). To download the application, visit the page. To the right of the URL (in the search bar) there should be a button to download in the app. If you are having trouble downloading the app, try updating your browser.
 
 When using the app, you will be directed to the "information" page. We recommend reading the description of the tool, and downloading the original guide. To navigate between different parts of the application, open the menu using the button in the top-left corner. The pages are arranged in the order that the data should be collected (i.e. begin at the top and work your way down through each item).
 
 Note that there is a toolbar at the top of the page with the categories "Project", "Project Information", "Legume Information", "Data Entry", and "Results". Each category should be followed by "?". "Project" will be followed by the project name, once it is entered by the user. The remaining categories will be marked as complete when the user visits each of the pages. When all of the categories are ticked, the user is able to submit their data to the legumeCHOICE database.
+
+The sections below describe how to enter data for the application. For more domain information on the principals behind the application and how to conduct the focus-group, please refer to the [focus group](focus-group) section.
 
 ## Project Information
 
@@ -22,9 +24,11 @@ This is the key section of the application. When the user visits the data-entry 
 
 ### Context Scores
 
-The Context Assessment considers a series of key constraints to legume use. The user must assign a score to each key constraint for the particular context or community being studied. This exercise is conducted separately with the 3 typology groups and the average for each attribute is the rounded average of all 6 scores (3 typologies x 2 score types per attribute).
+The Context Assessment considers a series of key constraints to legume use. The user must assign a score to each key constraint for the particular context or community being studied. This exercise is conducted separately with the 3 typology groups and the average for each attribute is the rounded average of all 6 scores (3 typologies x 2 score types per attribute). Below the data-entry table, a radar plot illustrates the key legume constraints.
 
 ### Pairwise Scoring
+
+The pairwise selection section ives the user the opportunity to specify farmer priorities for 7 different attributes. Go through each pair, and select which attribute is more important to the farmers. The results of these selections will be summarised beside the selection table.
 
 ### Participatory Matrix Scoring
 
