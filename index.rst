@@ -65,4 +65,5 @@ projects as an administrator, and developing further features for the applicatio
    source/api.md
    source/nginx.md
    source/contribute-to-the-guide.md
+   source/key-vm-commands.md
 
