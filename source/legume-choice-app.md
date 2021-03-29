@@ -48,7 +48,9 @@ The legumeCHOICE application is designed to function completely offline. To faci
 
 If you would like another person to continue data-collection on your behalf, you can simply give them the JSON file (e.g. by email or USB). They will be able to load this data into their application, and begin editing the data right away.
 
-To submit your data to the central database
+To submit your data to the central database, all progress must have been complete (see the top bar). Users must also specify that their datasets will be made public except for sensitive information, such as names. Users who want to access their data in an accessible format need to submit their data to the central database.
+
+For more information on how public datasets are formatted, and what information is made accessible, please refer to [Public Data](public-data.md)
 
 ## Limitations
 
