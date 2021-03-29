@@ -46,5 +46,5 @@ LegumeCHOICE Documentation
    source/data-processing.md
    source/api.md
    source/nginx.md
-   
+   source/contribute-to-the-guide.md
 

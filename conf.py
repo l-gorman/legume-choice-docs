@@ -16,6 +16,7 @@
 import sphinx_rtd_theme
 import sphinx_markdown_tables
 from recommonmark.parser import CommonMarkParser
+from recommonmark.transform import AutoStructify
 # -- Project information -----------------------------------------------------
 
 project = 'LegumeCHOICE'
@@ -33,6 +34,15 @@ extensions = [
     'recommonmark',
     'sphinx_markdown_tables',
 ]
+
+
+github_doc_root = 'https://github.com/rtfd/recommonmark/tree/master/doc/'
+def setup(app):
+    app.add_config_value('recommonmark_config', {
+            'url_resolver': lambda url: github_doc_root + url,
+            'auto_toc_tree_section': 'Contents',
+            }, True)
+    app.add_transform(AutoStructify)
 
 
 source_parsers = {
