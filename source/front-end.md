@@ -1,8 +1,6 @@
 # Front-End
 
-The application is a Progressive Web App (PWA). This means that most modern browsers allow users to install the application locally. The source code for the application can be found [here](https://github.com/l-gorman/legume-choice-client). To contribute to this application, please ensure you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [node](https://nodejs.org/en/download/) installed. To clone the application enter:
-
-`git clone https://github.com/l-gorman/legume-choice-client`
+The application is a Progressive Web App (PWA). This means that most modern browsers allow users to install the application locally. The source code for the application can be found [here](https://github.com/l-gorman/legume-choice-client). To contribute to this application, please ensure you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [node](https://nodejs.org/en/download/) installed. To clone the application enter: `git clone URL`, replacing `URL` with _{{githubBase}}{{frontEndRepo}}_
 
 Change to the app directory (using `cd legume-choice-client`). You then need to install all of the dependencies using the command `npm install`. To start developing the application locally, run `npm start`, the application should then load in your browser and you can begin editing components. the code for each of the components can be found in the directory `./src/components`. This will contain a folder for each of the components. The names of the components should be self explanatory, and comments within each components should sufficiently explain
 

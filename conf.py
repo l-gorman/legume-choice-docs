@@ -17,6 +17,7 @@ import sphinx_rtd_theme
 import sphinx_markdown_tables
 from recommonmark.parser import CommonMarkParser
 from recommonmark.transform import AutoStructify
+import myst_parser
 # -- Project information -----------------------------------------------------
 
 project = 'LegumeCHOICE'
@@ -31,8 +32,9 @@ author = 'Leo Gorman'
 # ones.
 extensions = [
     "sphinx_rtd_theme",
-    'recommonmark',
+    #'recommonmark',
     'sphinx_markdown_tables',
+    'myst_parser'
 ]
 
 
@@ -45,14 +47,42 @@ def setup(app):
     app.add_transform(AutoStructify)
 
 
-source_parsers = {
-    '.md': CommonMarkParser,
+# source_parsers = {
+#     '.md': CommonMarkParser,
+# }
+
+# source_suffix = {
+#     '.rst': 'restructuredtext',
+#     '.md': 'markdown'
+# }
+
+
+myst_enable_extensions = [
+    "substitution"
+]
+
+### All of the main substitutions to add to the sphinx documentation
+# To reference any of these, use either {{key}}, to reference in text.
+# Or use {{ '[here]({})'.format(key) }} to link in text
+# For multiple component links simply build on this
+# {{ '[NEW LINK]({}{})'.format(key1,key2) }}
+# See here for documentation on these types of substitution https://myst-parser.readthedocs.io/en/latest/using/syntax-optional.html
+myst_substitutions = {
+  "githubBase":"https://github.com/l-gorman/",  
+  "frontEndRepo": "legume-choice-client",
+  "apiRepo": "legume-choice-api",
+  "docsRepo": "legume-choice-docs",
+  "serverConfRepo": "legume-choice-conf",
+  "dataProcessingRepo": "legume-choice-data-processing",
+   
+  "appURL": "https://l-gorman.github.io/legume-choice-client/",
+  "apiUrl": "https://l-gorman.com/",
+  "publicData": "LegumeCHOICE",
+  "adminData": "AdminLegumeCHOICE"
 }
 
-source_suffix = {
-    '.rst': 'restructuredtext',
-    '.md': 'markdown'
-}
+
+
 
 latex_elements = {
   'extraclassoptions': 'openany,oneside'

@@ -1,6 +1,6 @@
 # Public Data
 
-This section describes how public data is presented. The legumeCHOICE public data can be found [here](https://l-gorman.com/LegumeCHOICE/).
+This section describes how public data is presented. The legumeCHOICE public data can be found {{ '[here]({}{})'.format(apiUrl,publicData) }}.
 Data can be broken down into two categories, **AggregatedProjects** and **IndividualProjects**.
 
 The **IndividualProjects** folder contains reformatted results for each individual project which has been collected. These projects can be identified by their project ID (see [using the app](legume-choice-app.md)). The **AggregatedProjects** folder includes results for all of the projects together, in single CSVs.

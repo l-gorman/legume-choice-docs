@@ -1,6 +1,6 @@
 # Using the App
 
-This section provides an overview of how to get started with the legumeCHOICE app. The app can be viewed and downloaded [here](https://l-gorman.github.io/legume-choice-client/). To download the application, visit the page. To the right of the URL (in the search bar) there should be a button to download in the app. If you are having trouble downloading the app, try updating your browser.
+This section provides an overview of how to get started with the legumeCHOICE app. The app can be viewed and downloaded {{ '[here]({})'.format(appURL) }}. To download the application, visit the page. To the right of the URL (in the search bar) there should be a button to download in the app. If you are having trouble downloading the app, try updating your browser.
 
 When using the app, you will be directed to the "information" page. We recommend reading the description of the tool, and downloading the original guide. To navigate between different parts of the application, open the menu using the button in the top-left corner. The pages are arranged in the order that the data should be collected (i.e. begin at the top and work your way down through each item).
 
