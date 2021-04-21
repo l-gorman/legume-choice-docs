@@ -67,16 +67,33 @@ myst_enable_extensions = [
 # For multiple component links simply build on this
 # {{ '[NEW LINK]({}{})'.format(key1,key2) }}
 # See here for documentation on these types of substitution https://myst-parser.readthedocs.io/en/latest/using/syntax-optional.html
+
+# Personal urls
+# myst_substitutions = {
+#   "githubBase":"https://github.com/l-gorman/",  
+#   "frontEndRepo": "legume-choice-client",
+#   "apiRepo": "legume-choice-api",
+#   "docsRepo": "legume-choice-docs",
+#   "serverConfRepo": "legume-choice-conf",
+#   "dataProcessingRepo": "legume-choice-data-processing",
+   
+#   "appURL": "https://l-gorman.github.io/legume-choice-client/",
+#   "apiUrl": "https://l-gorman.com/",
+#   "publicData": "LegumeCHOICE",
+#   "adminData": "AdminLegumeCHOICE"
+# }
+
+# ILRI URLS
 myst_substitutions = {
-  "githubBase":"https://github.com/l-gorman/",  
+  "githubBase":"https://github.com/ilri/",  
   "frontEndRepo": "legume-choice-client",
   "apiRepo": "legume-choice-api",
   "docsRepo": "legume-choice-docs",
   "serverConfRepo": "legume-choice-conf",
   "dataProcessingRepo": "legume-choice-data-processing",
    
-  "appURL": "https://l-gorman.github.io/legume-choice-client/",
-  "apiUrl": "https://l-gorman.com/",
+  "appURL": "https://legumechoice.ilri.org/",
+  "apiUrl": "https://api.legumechoice.ilri.org/",
   "publicData": "LegumeCHOICE",
   "adminData": "AdminLegumeCHOICE"
 }
