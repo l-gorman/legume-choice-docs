@@ -2,7 +2,7 @@
 
 This document contains key information to get started working with the legumeCHOICE VM. It includes some information about where important files are stored as well as a cheatsheet for running, stopping, and restarting processes.
 
-A repository has been created for two of the main server files, this can be found {{ '[here]({}{})'.format(githubBase,serverConfRepo) }}.
+A repository has been created for two of the main server files, this can be found [here]{https://github/l-gorman/legume-choice-conf}.
 
 To restart the NGINX server enter the command `systemctl restart nginx`
 
